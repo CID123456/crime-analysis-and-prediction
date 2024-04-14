@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project aims to provide comprehensive analysis and insights into crime patterns and trends using various techniques such as map-based analysis, month-based analysis, age-based analysis, crime prediction, crime sentiment analysis, and a model for resource allocation.
+This project aims to provide comprehensive analysis and insights into crime patterns and trends using various techniques such as map-based analysis, month-based analysis, age-based analysis, crime prediction, crime sentiment analysis, and a model for resource allocation, crime prediction, sentiment analysis for social media comments for finding probable criminal activities.
 
 ## Features
 
@@ -19,7 +19,7 @@ This project aims to provide comprehensive analysis and insights into crime patt
 
 ### Age-Based Analysis
 
-- Focuses on age demographics to study crime trends among different age groups.
+- Focuses on age demographics to study crime trends for women and sensitive age groups like the elderly and children.
 - Provides insights into vulnerable age categories and potential areas for social interventions.
 
 ### Crime Predictor
@@ -34,31 +34,30 @@ This project aims to provide comprehensive analysis and insights into crime patt
 
 ### Resource Allocation Model
 
-- Develops a model for dynamically allocating resources such as police personnel and patrol vehicles based on the type and intensity of reported crimes.
+- A model for finding the nearest police station containing needed resources for the user-reported crime.
 - Maximizes efficiency in resource utilization and response to varying crime scenarios.
 
-## Usage
+### Criminal prediction Model
 
-1. **Map-Based Analysis:** Use the map visualization tool to explore crime hotspots and distribution patterns.
-2. **Month-Based Analysis:** Analyze crime data over different months to identify seasonal trends.
-3. **Age-Based Analysis:** Study crime trends among different age groups for targeted interventions.
-4. **Crime Predictor:** Predict potential crime occurrences using the machine learning model.
-5. **Crime Sentiment Analysis:** Analyze public sentiment related to crime for better community engagement.
-6. **Resource Allocation:** Use the resource allocation model to optimize resource deployment based on crime type and intensity.
+- A model for predicting the most probable criminals based on the previous data for criminals including the time range, the locations of the crimes, and the crime type.
+
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/crime-analysis-project.git
+   git clone https://github.com/CID123456/crime-analysis-project.git
 
-2. Install dependencies:
+2. Install dependencies in backend:
 
    ```bash
+   cd backend
    pip install -r requirements.txt
+   python app.py
 
-3. Run:
+3. Run in root directory:
 
     ```bash
+    
     live-server
