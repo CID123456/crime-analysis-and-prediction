@@ -1,5 +1,4 @@
 # Crime Analysis Project
-![Designer (4)](https://github.com/CID123456/Crime-analysis/assets/164514449/6996e438-166d-4057-99c5-bf3460bc81dd)
 
 ## Overview
 
