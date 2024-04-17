@@ -4,6 +4,9 @@
 
 This project aims to provide comprehensive analysis and insights into crime patterns and trends using various techniques such as map-based analysis, month-based analysis, age-based analysis, crime prediction, crime sentiment analysis, and a model for resource allocation, crime prediction, sentiment analysis for social media comments for finding probable criminal activities.
 
+## System Architecture
+![Untitled - Frame 1](https://github.com/CID123456/crime-analysis-and-prediction/assets/164514449/8c50df37-7adf-432b-b1ee-23a6bf6360d8)
+
 ## Features
 
 ### Map-Based Analysis
