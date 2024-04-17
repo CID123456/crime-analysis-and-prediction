@@ -57,19 +57,26 @@ This project aims to provide comprehensive analysis and insights into crime patt
 
 ## Installation
 
-1. Clone the repository:
+
+1. Make Sure you have [Python 3.x](https://www.python.org/downloads/) and [Node.js](https://nodejs.org/en/download) installed in your system installed on your system.
+2. Clone the repository:
 
    ```bash
    git clone https://github.com/CID123456/crime-analysis-project.git
 
-2. Install dependencies in backend:
+3. Install dependencies in backend:
 
    ```bash
    cd backend
    pip install -r requirements.txt
    python app.py
 
-3. Run in root directory:
+4. Install live-server
+   
+   ```bash
+   npm install live-server
+
+5. Run in root directory (containing the index.html):
 
     ```bash
     
