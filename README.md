@@ -44,6 +44,17 @@ This project aims to provide comprehensive analysis and insights into crime patt
 - A model for predicting the most probable criminals based on the previous data for criminals including the time range, the locations of the crimes, and the crime type.
 
 
+## Tech stack
+- Javascript: Integrating Google Maps API
+- Python: Machine learning models
+- Html/CSS: Website design
+- Flask: Prediction model deployment
+- Firebase: Realtime data storage and deployment
+- Streamlit: Other models deployment
+- Huggingface: Other models deployment
+- AWS Amplify: Website deployment
+
+
 ## Installation
 
 1. Clone the repository:
@@ -63,3 +74,7 @@ This project aims to provide comprehensive analysis and insights into crime patt
     ```bash
     
     live-server
+    
+## Demo video
+
+Demo video link - https://youtu.be/gC80tkqQN64
